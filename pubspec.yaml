@@ -1,0 +1,35 @@
+name: bxliv_media
+description: BXLIV Media - TikTok Agency (Exact Replica)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^6.1.2
+  dropdown_button2: ^2.3.9
+  firebase_auth: ^6.1.4
+  firebase_core: ^4.4.0
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.12.0
+  get: ^4.7.3
+  google_fonts: ^6.1.0
+  intl: ^0.20.2
+  url_launcher: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  # Add this section:
+  assets:
+    - assets/
+    # Or, to include everything in the folder:
+    # - assets/images/

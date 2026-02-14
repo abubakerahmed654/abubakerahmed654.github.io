@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787889189326",
+    "project_id": "bxliv-f7403",
+    "storage_bucket": "bxliv-f7403.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787889189326:android:afc89e2a9438a93e003b9f",
+        "android_client_info": {
+          "package_name": "com.example.bxliv_media"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkpbMx3Y5DDIPZl-iJm8sGOl4r5Y-eNek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
