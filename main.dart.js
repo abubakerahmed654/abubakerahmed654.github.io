@@ -44067,7 +44067,7 @@ p=A.b([B.F8,B.Fb,B.F9,B.Fd,B.Fc,B.Fa],t.e9)
 l=q?20:100
 j=q?60:100
 h=q?1:3
-return A.mi(n,A.ez(B.aO,A.b([A.jF(A.ah(A.b([i,A.ai(n,A.ah(A.b([A.lM(1,p,h,24,24,B.cl,!0)],r),B.B,B.i,B.j),B.n,n,n,new A.an(n,n,n,n,n,new A.cJ(B.b_,B.bY,B.ac,B.bR,n,n),B.r),n,n,n,n,new A.X(l,j,l,j),n,n,n),A.yE(a)],r),B.p,B.i,B.j),o.d,n),new A.il(o.e,"/",new A.aq3(o),n)],r),B.J,B.aN,n),m,o.f)}}
+return A.mi(n,A.ez(B.aO,A.b([A.jF(A.ah(A.b([i,A.ai(n,A.ah(A.b([A.lM(q?0.8:1,p,h,24,24,B.cl,!0)],r),B.B,B.i,B.j),B.n,n,n,new A.an(n,n,n,n,n,new A.cJ(B.b_,B.bY,B.ac,B.bR,n,n),B.r),n,n,n,n,new A.X(l,j,l,j),n,n,n),A.yE(a)],r),B.p,B.i,B.j),o.d,n),new A.il(o.e,"/",new A.aq3(o),n)],r),B.J,B.aN,n),m,o.f)}}
 A.aq6.prototype={
 $0(){var s=this.a,r=s.d.f,q=B.b.gbm(r).at
 q.toString
@@ -45082,8 +45082,8 @@ l(){this.d.l()
 this.au()},
 I(a){var s,r,q,p=this,o=null,n=A.tJ(a),m=t.w,l=A.aL(a,o,m).w.a.a<800,k=l?20:400,j=l?50:80,i=A.a4(38,B.o.n()>>>16&255,B.o.n()>>>8&255,B.o.n()&255),h=A.ab(50)
 h=A.ai(o,A.S("STANDARDS & EXPECTATIONS",o,o,o,A.P().$4$color$fontSize$fontWeight$letterSpacing(B.o,12,B.K,1.2),o,o),B.n,o,o,new A.an(i,o,o,h,o,o,B.r),o,o,o,o,B.HW,o,o,o)
-i=A.ax(o,o,A.P().$3$color$fontSize$fontWeight(B.e,l?40:64,B.b1),"CODE OF ")
-i=A.dq(o,o,o,B.a0,o,o,!0,o,A.ax(A.b([i,A.ax(o,o,A.P().$3$color$fontSize$fontWeight(B.o,l?40:64,B.b1),"CONDUCT")],t.R),o,o,o),B.I,o,o,B.Q,B.O)
+i=A.ax(o,o,A.P().$3$color$fontSize$fontWeight(B.e,l?35:64,B.b1),"CODE OF ")
+i=A.dq(o,o,o,B.a0,o,o,!0,o,A.ax(A.b([i,A.ax(o,o,A.P().$3$color$fontSize$fontWeight(B.o,l?35:64,B.b1),"CONDUCT")],t.R),o,o,o),B.I,o,o,B.Q,B.O)
 s=t.p
 j=A.ai(o,A.ah(A.b([h,B.ak,i,B.an,A.bC(A.S("Professional standards and expectations for all creators in our community. Upholding these values ensures we maintain a safe, compliant, and thriving ecosystem.",o,o,o,A.P().$4$color$fontSize$fontWeight$height(B.E,l?15:18,B.F,1.7),B.I,o),o,600)],s),B.p,B.i,B.j),B.n,o,o,B.db,o,o,o,o,new A.X(k,j,k,j),o,o,o)
 k=p.a5K(a)
@@ -45519,7 +45519,7 @@ $2(a,b){var s,r,q=this.b,p=q?1:2
 q=q?1:1.5
 s=this.a
 r=t.s
-return A.lM(q,A.b([s.pP(B.ay,"Full-service talent management for TikTok creators at every stage of their journey.",A.b(["Brand deal negotiations","Content strategy development","Career planning & growth","Legal & contract support","Revenue optimization"],r),B.pC,B.o,"Creator Management"),s.pP(B.cT,"Strategic influencer campaigns that drive awareness, engagement, and conversions.",A.b(["Creator matching & vetting","Campaign strategy & planning","Performance tracking","Authentic storytelling","ROI optimization"],r),B.pz,B.t,"Brand Marketing"),s.pP(B.ay,"Professional content production that captures attention and tells your story.",A.b(["Concept development","Video production","Editing & post-production","Trend-based content"],r),B.pE,B.o,"Content Creation"),s.pP(B.cT,"Specialized management and marketing for gaming creators and esports talent.",A.b(["Gaming creator management","Esports partnerships","Stream optimization","Gaming brand campaigns"],r),B.pD,B.t,"Gaming Division"),s.pP(B.ay,"Comprehensive training programs to develop the next generation of TikTok stars.",A.b(["Content creation workshops","Algorithm mastery","Monetization strategies","Personal branding","Community building"],r),B.lt,B.o,"Creator Training"),s.pP(B.cT,"Data-driven strategies to accelerate follower growth and engagement.",A.b(["Profile optimization","Posting schedule optimization","Hashtag strategy","Engagement tactics","Analytics & reporting"],r),B.ei,B.t,"Growth Strategy")],t.p),p,32,32,B.cl,!0)},
+return A.lM(q,A.b([s.pP(B.ay,"Full-service talent management for TikTok creators at every stage of their journey.",A.b(["Brand deal negotiations","Content strategy development","Career planning & growth","Legal & contract support"],r),B.pC,B.o,"Creator Management"),s.pP(B.cT,"Strategic influencer campaigns that drive awareness, engagement, and conversions.",A.b(["Creator matching & vetting","Campaign strategy & planning","Performance tracking","Authentic storytelling","ROI optimization"],r),B.pz,B.t,"Brand Marketing"),s.pP(B.ay,"Professional content production that captures attention and tells your story.",A.b(["Concept development","Video production","Editing & post-production","Trend-based content"],r),B.pE,B.o,"Content Creation"),s.pP(B.cT,"Specialized management and marketing for gaming creators and esports talent.",A.b(["Gaming creator management","Esports partnerships","Stream optimization","Gaming brand campaigns"],r),B.pD,B.t,"Gaming Division"),s.pP(B.ay,"Comprehensive training programs to develop the next generation of TikTok stars.",A.b(["Content creation workshops","Algorithm mastery","Monetization strategies","Personal branding","Community building"],r),B.lt,B.o,"Creator Training"),s.pP(B.cT,"Data-driven strategies to accelerate follower growth and engagement.",A.b(["Profile optimization","Posting schedule optimization","Hashtag strategy","Engagement tactics","Analytics & reporting"],r),B.ei,B.t,"Growth Strategy")],t.p),p,32,32,B.cl,!0)},
 $S:30}
 A.ay1.prototype={
 $1(a){var s=null
