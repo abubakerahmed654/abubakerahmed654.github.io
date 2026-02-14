@@ -373,7 +373,7 @@ Widget _buildDetailedServicesSection(BuildContext context) {
                 'Content strategy development',
                 'Career planning & growth',
                 'Legal & contract support',
-                'Revenue optimization',
+               
               ],
               bgColor: const Color(0xFFFBE8F3),
               iconColor: AppColors.accentMagenta,

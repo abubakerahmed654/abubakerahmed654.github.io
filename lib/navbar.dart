@@ -314,6 +314,21 @@ Widget buildFooter(BuildContext context) {
                   _socialIcon(FontAwesomeIcons.youtube),
                 ],
               ),
+               const SizedBox(height: 20),
+                _footerLinks(context, 'Company', [
+                  ('About Us', AppRoutes.about),
+                ]),
+                 const SizedBox(height: 10),
+              _footerLinks(context, 'Services', [
+                ('Creator Management', AppRoutes.services),
+                ('Brand Marketing', AppRoutes.services),
+                ('Content Creation', AppRoutes.services),
+              ]),
+               const SizedBox(height: 10),
+              _footerLinks(context, 'Resources', [
+                ('For Creators', AppRoutes.forCreators),
+                ('For Brands', AppRoutes.forBrands),
+              ]),
             ],
           ),
         SizedBox(height: isMobile ? 40 : 60),
@@ -344,26 +359,28 @@ Widget buildFooter(BuildContext context) {
             ],
           )
         else
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                '© 2026 B X LIV. All rights reserved.',
-                style: GoogleFonts.inter(
-                  fontSize: 12,
-                  color: Colors.grey[700],
+          Center(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '© 2026 B X LIV. All rights reserved.',
+                  style: GoogleFonts.inter(
+                    fontSize: 12,
+                    color: Colors.grey[700],
+                  ),
                 ),
-              ),
-              const SizedBox(height: 16),
-              Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  _footerLink(context, 'Privacy Policy', AppRoutes.codeOfConduct),
-                  const SizedBox(width: 20),
-                  _footerLink(context, 'Terms of Service', AppRoutes.codeOfConduct),
-                ],
-              ),
-            ],
+                const SizedBox(height: 16),
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    _footerLink(context, 'Privacy Policy', AppRoutes.codeOfConduct),
+                    const SizedBox(width: 20),
+                    _footerLink(context, 'Terms of Service', AppRoutes.codeOfConduct),
+                  ],
+                ),
+              ],
+            ),
           ),
       ],
     ),

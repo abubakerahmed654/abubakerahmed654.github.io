@@ -176,7 +176,7 @@ class _CaseStudyState extends State<CaseStudy> {
             crossAxisCount: isMobile ? 1 : 3,
             crossAxisSpacing: 24,
             mainAxisSpacing: 24,
-            childAspectRatio:  isMobile ? 1: 1,
+            childAspectRatio:  isMobile ? .9: 1,
             children: items,
           ),
         ],

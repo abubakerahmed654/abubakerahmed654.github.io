@@ -109,7 +109,7 @@ class _CodeOfConductPageState extends State<CodeOfConductPage> {
                 TextSpan(
                   text: 'CODE OF ',
                   style: GoogleFonts.inter(
-                    fontSize: isMobile ? 40 : 64,
+                    fontSize: isMobile ? 35 : 64,
                     fontWeight: FontWeight.w900,
                     color: Colors.black,
                   ),
@@ -117,7 +117,7 @@ class _CodeOfConductPageState extends State<CodeOfConductPage> {
                 TextSpan(
                   text: 'CONDUCT',
                   style: GoogleFonts.inter(
-                    fontSize: isMobile ? 40 : 64,
+                    fontSize: isMobile ? 35 : 64,
                     fontWeight: FontWeight.w900,
                     color: AppColors.accentMagenta,
                   ),
