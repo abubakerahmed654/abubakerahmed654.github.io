@@ -180,7 +180,7 @@ Widget _buildValuesSection(BuildContext context) {
               crossAxisCount: crossAxisCount,
               crossAxisSpacing: 24,
               mainAxisSpacing: 24,
-              childAspectRatio: isMobile ? 1.3 : 1.3,
+              childAspectRatio: isMobile ? 1.9 : 1.3,
               children: [
                 _valueCard(
               icon: Icons.center_focus_strong_rounded,  

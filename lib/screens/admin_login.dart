@@ -18,7 +18,9 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   late TextEditingController _emailController;
   late TextEditingController _passwordController;
-
+final ScrollController _scrollController = ScrollController();
+  bool _isScrolled = false;
+ final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   bool _isPasswordVisible = false;
@@ -126,6 +128,8 @@ class _LoginPageState extends State<LoginPage> {
     final isMobile = size.width < 800;
 
     return Scaffold(
+           key: _scaffoldKey,
+      drawer: buildMobileDrawer(context),
       body: Container(
         width: size.width,
         height: size.height,
@@ -142,12 +146,15 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           children: [
             // Navbar
-            const BXLIVNavBar(
-              scrollController: null,
-              isScrolled: false,
-              currentRoute: AppRoutes.login,
-              onMenuPressed: null,
-            ),
+              BXLIVNavBar(
+            scrollController: _scrollController,
+            isScrolled: _isScrolled,
+            currentRoute: AppRoutes.home,
+            onMenuPressed: () {
+              _scaffoldKey.currentState?.openDrawer();
+            },
+          )
+          ,
             // Login Form
             Expanded(
               child: Center(

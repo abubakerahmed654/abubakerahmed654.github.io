@@ -105,7 +105,7 @@ Widget _buildHeroSection(BuildContext context) {
               TextSpan(
                 text: 'JOIN OUR ',
                 style: GoogleFonts.inter(
-                  fontSize: isMobile ? 42 : 72,
+                  fontSize: isMobile ? 35 : 72,
                   fontWeight: FontWeight.bold,
                   color: Colors.black,
                   height: 1.1, // Adjusted for the gap between STORY and BXLIV
@@ -114,7 +114,7 @@ Widget _buildHeroSection(BuildContext context) {
               TextSpan(
                 text: 'ROSTER', // Removed the \n here
                 style: GoogleFonts.inter(
-                  fontSize: isMobile ? 42 : 72,
+                  fontSize: isMobile ? 35 : 72,
                   fontWeight: FontWeight.bold,
                color: AppColors.accentMagenta,
                   height: 1.0, // Tightens the bottom of the text block
@@ -126,7 +126,7 @@ Widget _buildHeroSection(BuildContext context) {
         const SizedBox(height: 20),
         // No SizedBox here
         Text(
-           " We're looking for talented creators ready to take their TikTok career to \n the next level.",
+           " We're looking for talented creators ready to take their TikTok career to  the next level.",
           textAlign: TextAlign.center,
           style: GoogleFonts.inter(
             fontSize: isMobile ? 14 : 18,
@@ -211,7 +211,7 @@ Widget _buildValuesSection(BuildContext context) {
               crossAxisCount: crossAxisCount,
               crossAxisSpacing: 24,
               mainAxisSpacing: 24,
-              childAspectRatio: isMobile ? 2.2 : 1.3,
+              childAspectRatio: isMobile ? 1.7 : 1.3,
               children: [
                 _valueCard(
                   icon:  Icons.trending_up_rounded,

@@ -176,7 +176,7 @@ class _CaseStudyState extends State<CaseStudy> {
             crossAxisCount: isMobile ? 1 : 3,
             crossAxisSpacing: 24,
             mainAxisSpacing: 24,
-            childAspectRatio:  isMobile ? 1.2 : 1,
+            childAspectRatio:  isMobile ? 1: 1,
             children: items,
           ),
         ],
@@ -236,7 +236,7 @@ class _CaseStudyState extends State<CaseStudy> {
               "Real campaigns, real results. See how we've helped creators and brands achieve viral success.",
               textAlign: TextAlign.center,
               style: GoogleFonts.inter(
-                fontSize: isMobile ? 16 : 18,
+                fontSize: isMobile ? 15 : 18,
                 color: AppColors.textGray,
                 height: 1.6,
               ),

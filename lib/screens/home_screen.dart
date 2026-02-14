@@ -151,7 +151,7 @@ final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
                   ],
                 ),
               ),
-             // if (!isMobile)
+              if (!isMobile)
                 MouseRegion(
                   onEnter: (_) => setState(() => _isHoveredViewCases = true),
                   onExit: (_) => setState(() => _isHoveredViewCases = false),
@@ -213,6 +213,43 @@ final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
                           ))
                       .toList(),
                 ),
+                 if (isMobile)
+                Center(
+                  child: MouseRegion(
+                    onEnter: (_) => setState(() => _isHoveredViewCases = true),
+                    onExit: (_) => setState(() => _isHoveredViewCases = false),
+                    child: ElevatedButton.icon(
+                      onPressed: () {
+                        _navigateTo(context, AppRoutes.caseStudies);
+                      },
+                      iconAlignment: IconAlignment.end,
+                      icon: const Icon(Icons.arrow_outward, size: 18),
+                      label: Text(
+                        'View All Cases',
+                        style: GoogleFonts.inter(
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor:
+                            _isHoveredViewCases ? AppColors.accentCyan2 : Colors.white,
+                        foregroundColor:
+                            _isHoveredViewCases ? Colors.white : Colors.black,
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 32,
+                          vertical: 16,
+                        ),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8),
+                          side: BorderSide(
+                            color: _isHoveredViewCases ? AppColors.accentCyan2 : Colors.white,
+                            width: 2,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                )
         ],
       ),
     );
@@ -303,7 +340,7 @@ final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
             ),
             const SizedBox(height: 24),
             Text(
-              'From creator/gamer management to brand campaigns, we\nturn TikTok presence into cultural movements.',
+              'From creator/gamer management to brand campaigns, we turn TikTok presence into cultural movements.',
               textAlign: TextAlign.center,
               style: GoogleFonts.inter(
                 fontSize: isMobile ? 14 : 18,
@@ -445,7 +482,7 @@ final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
                 crossAxisCount: crossAxisCount,
                 crossAxisSpacing: 24,
                 mainAxisSpacing: 24,
-                childAspectRatio: isMobile ? 2 : 2.0,
+                childAspectRatio: isMobile ? 1.3 : 2.0,
                 children: const [
                   ServiceCard(
                     title: 'Creator Management',

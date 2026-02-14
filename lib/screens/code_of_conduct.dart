@@ -250,7 +250,7 @@ class _CodeOfConductPageState extends State<CodeOfConductPage> {
                 crossAxisCount: crossAxisCount,
                 crossAxisSpacing: 20,
                 mainAxisSpacing: 20,
-                childAspectRatio: 1.7,
+                childAspectRatio:  isMobile ? 1.4 : 1.7,
                 children: conductItems
                     .map(
                       (item) => _conductCard(

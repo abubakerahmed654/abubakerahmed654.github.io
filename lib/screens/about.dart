@@ -123,7 +123,7 @@ Widget _buildHeroSection(BuildContext context) {
         const SizedBox(height: 20),
         // No SizedBox here
         Text(
-          'We started with a simple mission: help creators build careers and help \n brands connect authentically with audiences.',
+          'We started with a simple mission: help creators build careers and help brands connect authentically with audiences.',
           textAlign: TextAlign.center,
           style: GoogleFonts.inter(
             fontSize: isMobile ? 14 : 18,
@@ -404,7 +404,7 @@ Widget _buildValuesSection(BuildContext context) {
               crossAxisCount: crossAxisCount,
               crossAxisSpacing: 24,
               mainAxisSpacing: 24,
-              childAspectRatio: isMobile ? 2 : 1.6,
+              childAspectRatio: isMobile ? 1.2 : 1.6,
               children: [
                 _valueCard(
                   icon: Icons.people_rounded,

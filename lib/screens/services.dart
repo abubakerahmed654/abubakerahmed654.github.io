@@ -129,7 +129,7 @@ Widget _buildHeroSection(BuildContext context) {
         const SizedBox(height: 20),
         // No SizedBox here
         Text(
-          'Comprehensive solutions for creators looking to grow and brands \n looking to connect.',
+          'Comprehensive solutions for creators looking to grow and brands looking to connect.',
           textAlign: TextAlign.center,
           style: GoogleFonts.inter(
             fontSize: isMobile ? 14 : 18,
@@ -361,7 +361,7 @@ Widget _buildDetailedServicesSection(BuildContext context) {
           crossAxisCount: crossAxisCount,
           crossAxisSpacing: 32,
           mainAxisSpacing: 32,
-          childAspectRatio: isMobile ? 1.3: 1.5,
+          childAspectRatio: isMobile ? 1: 1.5,
           children: [
             _serviceDetailCard(
               icon: Icons.people,
